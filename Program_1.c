@@ -16,7 +16,8 @@ int main()
       str[i]=='e'||
       str[i]=='i'||
       str[i]=='o'||
-      str[i]=='u')
+      str[i]=='u'||
+      str[i]=='\0')
       vowel++;
   }
   printf("%s contain %d vowels",str,vowel);

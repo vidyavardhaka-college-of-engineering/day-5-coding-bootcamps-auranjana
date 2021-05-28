@@ -6,6 +6,7 @@
 int main()
 {
 	char str[10];
+  printf("Enter the ")
 	scanf("%s", str);
 
 	//Write your code here
